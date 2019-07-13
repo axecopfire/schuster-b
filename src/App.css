@@ -8,6 +8,10 @@ body {
   /* more styles */
   background-color: #282c34;
 }
+main {
+  position: relative;
+  z-index: 1;
+}
 .particles {
   position: fixed;
   top: 0;
