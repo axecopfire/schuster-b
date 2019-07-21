@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #282c34;
-  color: ivory;
+  color: white;
   font-size: 10px;
 }
 main, footer {
@@ -19,6 +19,7 @@ main, footer {
   width: 100vw;
 }
 
+/* Header */
 .App-header {
   position: relative;
   z-index: 1;
@@ -51,6 +52,7 @@ main>h1 {
 }
 main>h2 {
   font-size: 1.8rem;
+  opacity: .9;
   position: relative;
   width: 90%;
   max-width: 30rem;
@@ -69,7 +71,7 @@ main>h2 {
   width: 100%;
   display: block;
 }
-.SouthernDev>.image>img {
+.SouthernDev .image img {
   max-width: 40%;
   min-height: 50px;
   height: auto;
@@ -79,7 +81,7 @@ main>h2 {
 .SouthernDev>p {
   font-size: 1.8rem;
   font-weight: bold;
-  opacity: .8;
+  opacity: .7;
   max-width: 80%;
   margin: 3rem 1rem;
 }
@@ -178,13 +180,13 @@ li {
   margin: 0;
   list-style-type: none;
 } 
-.fa-dev, .fa-twitter, .fa-github {
+.fa-dev, .fa-twitter, .fa-github, .fa-codepen, .fa-linkedin {
   font-size: 3rem;
   color: white;
-  text-shadow: 2px 2px rgba(255, 255,0);
+  /* text-shadow: 2px 2px rgba(255, 255,0); */
   transition: color .4s ease;
 }
-.fa-dev:hover, .fa-twitter:hover, .fa-github:hover {
-  color: #FF5B02;
+.fa-dev:hover, .fa-twitter:hover, .fa-github:hover, .fa-codepen:hover, .fa-linkedin:hover {
+  color: #02A6FF;
 } 
 

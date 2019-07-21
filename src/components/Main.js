@@ -9,7 +9,9 @@ export default function () {
             <h2>I am a web developer, teacher, community advocate, VetsWhoCode alumni, Navy veteran.</h2>
             <section className="SouthernDev">
                 <div className="image">
-                    <img src={SoDev} alt="Cool logo for Southern Dev Conference. Stylized url: SouthernDev.co" />
+                    <a href="https://southerndev.co">
+                        <img src={SoDev} alt="Cool logo for Southern Dev Conference. Stylized url: SouthernDev.co" />
+                    </a>
                 </div>
                 <p>Community Advocate: Southern Dev conference and the monthly Developer Meetups.</p>
             </section>
