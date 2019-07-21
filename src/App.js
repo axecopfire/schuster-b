@@ -1,14 +1,16 @@
 import React from 'react';
-import './App.css';
+import './styles/App.css';
 import ParticleComp from './components/particles';
-import Header from './components/header';
-import Main from './components/main';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Main />
+      <Footer />
       <ParticleComp />
     </div>
   );

@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+  color: ivory;
+  font-size: 10px;
+}
+main, footer {
+  position: relative;
+  z-index: 1;
+}
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  width: 100vw;
+}
+
+.App-header {
+  position: relative;
+  z-index: 1;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header>img {
+  display: block;
+  max-height: 40vh;
+  max-width: 50vw;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+
+main {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+main>h1 {
+  display: inline-block;
+  margin: 0 auto 1rem 1rem;
+  font-size: 3.5rem;
+  width: 15rem;
+  text-align: right;
+  left: 0;
+}
+main>h2 {
+  font-size: 1.8rem;
+  position: relative;
+  width: 90%;
+  max-width: 30rem;
+  display: block;
+  margin: 3rem 1rem;
+}
+@media(min-width: 800px) {
+  main>h2 {
+    left: 50%;
+    transform: translateX(-75%);
+  }
+}
+
+ul{
+  width: 80%;
+  margin: 0;
+  display: block;
+}
+li {
+  width: 80%;
+  margin: 0;
+} 
+
+.SouthernDev>img {
+  width: 200px;
+}
+
+.teaching>img {
+  width: 200px;
+}
