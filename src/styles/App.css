@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #282c34;
+  background-color: #283041;
   color: white;
   font-size: 10px;
 }
@@ -137,14 +137,16 @@ main>h2 {
   max-width: 300px;
 }
 .teaching>.image {
-  width: 100%;
+  width: 80%;
   position: relative;
   z-index: 1;
+  top: -60px;
 }
 .teaching>.image>img {
-  width: 200px;
+  width: 100%;
   margin: 0 auto;
   display: block;
+  clip-path: polygon(25% 10%, 100% 10%, 75% 80%, 0% 80%);
 }
 @media(min-width: 600px) {
   .teaching {
@@ -160,6 +162,7 @@ main>h2 {
   }
   .teaching>.image {
     width: 50%;
+    top: 0;
   }
 }
 
@@ -175,11 +178,14 @@ ul{
   display: block;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 2rem auto;
   padding: 0;
 }
 li {
-  width: 80%;
+  width: 20%;
+  min-width: 60px;
+  padding: 20px 0;
   margin: 0;
   list-style-type: none;
 } 
