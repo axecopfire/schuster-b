@@ -154,41 +154,37 @@ main>h2 {
   }
   .teaching .orangeTriangle {
     position: absolute;
-    width: 0;
-    height: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    border-top: 220px solid transparent;
-    border-bottom: 170px solid transparent;
-    border-left: 300px solid #FF5B02;
-  }
-  .teaching p {
-    font-size: 1.8rem;
-    position: absolute;
-    top: 50px;
-    left: 40%;
-    max-width: 300px;
   }
   .teaching>.image {
     width: 50%;
-    position: relative;
-    z-index: 1;
-  }
-  .teaching>.image>img {
-    width: 200px;
-    margin: 0 auto;
-    display: block;
   }
 }
 
 /* Footer */
+footer {
+  width: 100%;
+  display: block;
+  position: relative;
+}
 ul{
-  width: 80%;
+  width: 60%;
   margin: 0;
   display: block;
+  display: flex;
+  margin: 2rem auto;
 }
 li {
   width: 80%;
   margin: 0;
+  list-style-type: none;
+} 
+.fa-dev, .fa-twitter, .fa-github {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px rgba(255, 255,0);
+  transition: color .4s ease;
+}
+.fa-dev:hover, .fa-twitter:hover, .fa-github:hover {
+  color: #FF5B02;
 } 
 
