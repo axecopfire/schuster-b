@@ -22,7 +22,9 @@ export default function () {
                     <p>Teach theClubhouse’s Code Boot Camp</p>
                 </div>
                 <div className="image">
+                <a href="https://www.theclubhou.se" target="_blank" rel="noreferrer noopener" >
                 <img src={Teaching} alt="I'm pointing out some broken code a student has." />
+                </a>
                 </div>
             </section>
         </main>
