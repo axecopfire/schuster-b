@@ -9,7 +9,7 @@ export default function () {
             <h2>Community driven Web Developer, passionate about building cool stuff for the web, and educating the next generation.</h2>
             <section className="SouthernDev">
                 <div className="image">
-                    <a href="https://southerndev.co">
+                    <a target="blank" rel="noreferrer noopener" href="https://southerndev.co">
                         <img src={SoDev} alt="Cool logo for Southern Dev Conference. Stylized url: SouthernDev.co" />
                     </a>
                 </div>
