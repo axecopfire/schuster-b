@@ -8,14 +8,20 @@ export default function () {
             <h1>Schuster Braun</h1>
             <h2>I am a web developer, teacher, community advocate, VetsWhoCode alumni, Navy veteran.</h2>
             <section className="SouthernDev">
-                <img src={SoDev} alt="Cool logo for Southern Dev Conference. Stylized url: SouthernDev.co" />
+                <div className="image">
+                    <img src={SoDev} alt="Cool logo for Southern Dev Conference. Stylized url: SouthernDev.co" />
+                </div>
                 <p>Community Advocate: Southern Dev conference and the monthly Developer Meetups.</p>
             </section>
             <section className="teaching">
-                <div className="orange-triangle">
+                <div className="leftContainer">
+                    <div className="orangeTriangle">
+                    </div>
+                    <p>Teacher: theClubhouse’s Code Boot Camp</p>
                 </div>
-                <p>Teacher: theClubhouse’s Code Boot Camp</p>
+                <div className="image">
                 <img src={Teaching} alt="I'm pointing out some broken code a student has." />
+                </div>
             </section>
         </main>
     )

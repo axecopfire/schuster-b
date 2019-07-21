@@ -35,7 +35,7 @@ main, footer {
 }
 
 main {
-  max-width: 1920px;
+  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
   text-align: left;
@@ -64,6 +64,124 @@ main>h2 {
   }
 }
 
+/* Southern Dev */
+.SouthernDev {
+  width: 100%;
+  display: block;
+}
+.SouthernDev>.image>img {
+  max-width: 40%;
+  min-height: 50px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+.SouthernDev>p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  opacity: .8;
+  max-width: 80%;
+  margin: 3rem 1rem;
+}
+@media(min-width: 700px) {
+  .SouthernDev {
+    width: 100%;
+    display: flex;
+  }
+  .SouthernDev>.image {
+    width: 60%;
+  }
+  .SouthernDev>.image>img {
+    max-width: 40%;
+    min-height: 50px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .SouthernDev>p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    opacity: .8;
+    max-width: 40%;
+    margin: 3rem auto;
+  }
+}
+
+/* Teaching */
+.teaching {
+  width: 100%;
+  display: block;
+}
+.teaching .leftContainer {
+  width: 100%;
+  position: relative;
+}
+.teaching .orangeTriangle {
+  position: relative;
+  width: 0;
+  height: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top: 220px solid transparent;
+  border-bottom: 170px solid transparent;
+  border-left: 300px solid #FF5B02;
+}
+.teaching p {
+  font-size: 1.8rem;
+  position: absolute;
+  top: 50px;
+  left: 40%;
+  max-width: 300px;
+}
+.teaching>.image {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.teaching>.image>img {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+@media(min-width: 600px) {
+  .teaching {
+    width: 100%;
+    display: flex;
+  }
+  .teaching .leftContainer {
+    width: 50%;
+    position: relative;
+  }
+  .teaching .orangeTriangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 220px solid transparent;
+    border-bottom: 170px solid transparent;
+    border-left: 300px solid #FF5B02;
+  }
+  .teaching p {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 50px;
+    left: 40%;
+    max-width: 300px;
+  }
+  .teaching>.image {
+    width: 50%;
+    position: relative;
+    z-index: 1;
+  }
+  .teaching>.image>img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+/* Footer */
 ul{
   width: 80%;
   margin: 0;
@@ -74,10 +192,3 @@ li {
   margin: 0;
 } 
 
-.SouthernDev>img {
-  width: 200px;
-}
-
-.teaching>img {
-  width: 200px;
-}
