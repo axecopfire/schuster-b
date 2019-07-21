@@ -52,12 +52,13 @@ main>h1 {
 }
 main>h2 {
   font-size: 1.8rem;
+  line-height: 1.5;
   opacity: .9;
   position: relative;
   width: 90%;
   max-width: 30rem;
   display: block;
-  margin: 3rem 1rem;
+  margin: 6rem 1rem;
 }
 @media(min-width: 800px) {
   main>h2 {
