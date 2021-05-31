@@ -5,7 +5,8 @@ body {
   color: white;
   font-size: 10px;
 }
-main, footer {
+main,
+footer {
   position: relative;
   z-index: 1;
 }
@@ -27,12 +28,12 @@ main, footer {
   color: white;
 }
 
-.App-header>img {
-  display: block;
-  max-height: 40vh;
-  max-width: 50vw;
-  border-radius: 100%;
-  margin: 20px auto;
+.App-header nav ul {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  right: 0;
+  list-style-type: none;
 }
 
 main {
@@ -42,7 +43,15 @@ main {
   text-align: left;
 }
 
-main>h1 {
+.app-logo {
+  display: block;
+  max-height: 40vh;
+  max-width: 50vw;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+
+main > h1 {
   display: inline-block;
   margin: 0 auto 1rem 1rem;
   font-size: 3.5rem;
@@ -50,18 +59,18 @@ main>h1 {
   text-align: right;
   left: 0;
 }
-main>h2 {
+main > h2 {
   font-size: 1.8rem;
   line-height: 1.5;
-  opacity: .9;
+  opacity: 0.9;
   position: relative;
   width: 90%;
   max-width: 30rem;
   display: block;
   margin: 6rem 1rem;
 }
-@media(min-width: 800px) {
-  main>h2 {
+@media (min-width: 800px) {
+  main > h2 {
     left: 50%;
     transform: translateX(-75%);
   }
@@ -79,32 +88,32 @@ main>h2 {
   margin: 0 auto;
   display: block;
 }
-.SouthernDev>p {
+.SouthernDev > p {
   font-size: 1.8rem;
   font-weight: bold;
-  opacity: .7;
+  opacity: 0.7;
   max-width: 80%;
   margin: 3rem 1rem;
 }
-@media(min-width: 700px) {
+@media (min-width: 700px) {
   .SouthernDev {
     width: 100%;
     display: flex;
   }
-  .SouthernDev>.image {
+  .SouthernDev > .image {
     width: 60%;
   }
-  .SouthernDev>.image>img {
+  .SouthernDev > .image > img {
     max-width: 40%;
     min-height: 50px;
     height: auto;
     margin: 0 auto;
     display: block;
   }
-  .SouthernDev>p {
+  .SouthernDev > p {
     font-size: 1.8rem;
     font-weight: bold;
-    opacity: .8;
+    opacity: 0.8;
     max-width: 40%;
     margin: 3rem auto;
   }
@@ -127,7 +136,7 @@ main>h2 {
   transform: translateX(-50%);
   border-top: 220px solid transparent;
   border-bottom: 170px solid transparent;
-  border-left: 300px solid #FF5B02;
+  border-left: 300px solid #ff5b02;
 }
 .teaching p {
   font-size: 1.8rem;
@@ -136,19 +145,19 @@ main>h2 {
   left: 40%;
   max-width: 300px;
 }
-.teaching>.image {
+.teaching > .image {
   width: 80%;
   position: relative;
   z-index: 1;
   top: -60px;
 }
-.teaching>.image img {
+.teaching > .image img {
   width: 100%;
   margin: 0 auto;
   display: block;
   clip-path: polygon(25% 10%, 100% 10%, 75% 80%, 0% 80%);
 }
-@media(min-width: 600px) {
+@media (min-width: 600px) {
   .teaching {
     width: 100%;
     display: flex;
@@ -160,7 +169,7 @@ main>h2 {
   .teaching .orangeTriangle {
     position: absolute;
   }
-  .teaching>.image {
+  .teaching > .image {
     width: 50%;
     top: 0;
   }
@@ -172,7 +181,7 @@ footer {
   display: block;
   position: relative;
 }
-ul{
+footer > ul {
   width: 60%;
   margin: 0;
   display: block;
@@ -182,25 +191,37 @@ ul{
   margin: 2rem auto;
   padding: 0;
 }
-li {
+footer > ul > li {
   width: 20%;
   min-width: 60px;
   padding: 20px 0;
   margin: 0;
   list-style-type: none;
-} 
-.fa-dev, .fa-twitter, .fa-github, .fa-codepen, .fa-linkedin {
+}
+.fa-dev,
+.fa-twitter,
+.fa-github,
+.fa-codepen,
+.fa-linkedin {
   font-size: 2rem;
   color: white;
   /* text-shadow: 2px 2px rgba(255, 255,0); */
-  transition: color .4s ease;
+  transition: color 0.4s ease;
 }
-.fa-dev:hover, .fa-twitter:hover, .fa-github:hover, .fa-codepen:hover, .fa-linkedin:hover {
-  color: #02A6FF;
-} 
+.fa-dev:hover,
+.fa-twitter:hover,
+.fa-github:hover,
+.fa-codepen:hover,
+.fa-linkedin:hover {
+  color: #02a6ff;
+}
 
-@media(min-width: 600px) {
-  .fa-dev, .fa-twitter, .fa-github, .fa-codepen, .fa-linkedin {
+@media (min-width: 600px) {
+  .fa-dev,
+  .fa-twitter,
+  .fa-github,
+  .fa-codepen,
+  .fa-linkedin {
     font-size: 3rem;
   }
 }
