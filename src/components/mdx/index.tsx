@@ -2,6 +2,7 @@ import { MDXProviderComponentsProp, MDXProviderProps } from "@mdx-js/react"
 import React, { ReactElement } from "react"
 import Counter from "./Counter"
 import CodeBlock from "./CodeBlock"
+import Video from './Video'
 
 const preToCodeBlock = (preProps: MDXProviderProps) => {
   if (
@@ -46,6 +47,7 @@ const components: MDXProviderComponentsProp = {
     }
   },
   Counter,
+  Video
 }
 
 export default components
