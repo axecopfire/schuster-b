@@ -3,6 +3,8 @@ import React, { ReactElement } from "react"
 import Counter from "./Counter"
 import CodeBlock from "./CodeBlock"
 import Video from './Video'
+import BlogImage from './BlogImage'
+import PhotoAlbum from './PhotoAlbum'
 
 const preToCodeBlock = (preProps: MDXProviderProps) => {
   if (
@@ -47,7 +49,9 @@ const components: MDXProviderComponentsProp = {
     }
   },
   Counter,
-  Video
+  Video,
+  BlogImage,
+  PhotoAlbum,
 }
 
 export default components

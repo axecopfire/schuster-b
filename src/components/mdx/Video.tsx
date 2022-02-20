@@ -10,7 +10,7 @@ const Video: React.FC<EmptyProps> = ({src, title}) => {
       </h3>
       <video
         controls
-        src={src}
+        src={`https://schuster-videos.s3.amazonaws.com/${src}`}
       />
     </div>
   )
