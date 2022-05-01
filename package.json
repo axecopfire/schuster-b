@@ -11,7 +11,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build --dist-dir build"
+    "build": "parcel build"
   },
   "eslintConfig": {
     "extends": "react-app"
