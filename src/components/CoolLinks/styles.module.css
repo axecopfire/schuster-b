@@ -1,0 +1,48 @@
+.links {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.links ul {
+  display: block;
+  padding: 20px;
+  border-radius: 10px;
+  background: #ff94e8b0;
+  width: 100%;
+}
+
+.links li {
+  display: block;
+  background: rgba(0,0,0,0.7);
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  max-width: 800px;
+  box-shadow: 0 0 20px 0px black;
+  border-radius: 5px;
+}
+
+.links h2 {
+  font-size: 2rem;
+  font-family: 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+  letter-spacing: .1rem;
+}
+
+.links h3 {
+  font-size: 1.3rem;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+}
+
+.links p, .links a {
+  font-size: 1rem;
+}
+
+.links a {
+  color:aqua;
+}
+
+.links a:visited {
+  color:deeppink;
+}
+

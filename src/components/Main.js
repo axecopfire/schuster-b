@@ -1,6 +1,7 @@
 import React from "react";
 import SoDev from "../images/SoDev-logo.png";
 import Teaching from "../images/teaching.jpg";
+import CoolLinks from "./CoolLinks/CoolLinks";
 
 export default function () {
   return (
@@ -43,6 +44,7 @@ export default function () {
           </a>
         </div>
       </section>
+      <CoolLinks />
     </main>
   );
 }
